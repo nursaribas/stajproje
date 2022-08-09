@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/ekran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ECDEDD"
+        android:foreground="#FEF4F3"
+        android:foregroundTint="#0FF8EBEA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/travel"
+        android:layout_width="352dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ekran"
+        app:srcCompat="@drawable/travel" />
+
+    <TextView
+        android:id="@+id/LogınYazısı"
+        android:layout_width="102dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="196dp"
+        android:text="Log In "
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="346dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="4dp"
+        android:text="Email"
+        android:textColor="#616161"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <EditText
+        android:id="@+id/Parola"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ekran" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="4dp"
+        android:text="Parola"
+        app:layout_constraintBottom_toTopOf="@+id/Parola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kaydol"
+        android:layout_width="304dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="4dp"
+        android:background="#E4A2C2"
+        android:text="Giris"
+        android:textColor="#232121"
+        android:textColorHighlight="#E4A2C2"
+        app:layout_constraintBottom_toTopOf="@+id/yada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#393535" />
+
+    <TextView
+        android:id="@+id/yada"
+        android:layout_width="94dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="40dp"
+        android:text="or"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kaydol"
+        android:layout_width="308dp"
+        android:layout_height="40dp"
+        android:background="#E4A2C2"
+        android:fontFamily="sans-serif"
+        android:foregroundTint="#F6E9E8"
+        android:text="kaydol"
+        android:textColor="#201E1E"
+        android:textColorHighlight="#E4A2C2"
+        android:textColorHint="#E4A2C2"
+        android:textColorLink="#E4A2C2"
+        app:layout_constraintBottom_toBottomOf="@+id/ekran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
