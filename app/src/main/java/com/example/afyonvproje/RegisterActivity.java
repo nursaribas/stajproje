@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class RegisterActivity extends AppCompatActivity {
 
     private ImageView travel;
-    private TextView KaydolYazısı;
     private EditText adsoyad;
     private EditText email;
     private EditText telefon;
@@ -27,7 +26,6 @@ public class RegisterActivity extends AppCompatActivity {
 
 
         travel = (ImageView) findViewById(R.id.travel);
-        KaydolYazısı= (TextView) findViewById(R.id.Kaydol);
         adsoyad = (EditText) findViewById(R.id.adsoyad);
         email = (EditText) findViewById(R.id.emailText);
         telefon = (EditText) findViewById(R.id.telefon);

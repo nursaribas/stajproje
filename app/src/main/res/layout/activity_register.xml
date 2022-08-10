@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEF4F3">
+    android:background="#E3D7D6">
 
     <ImageView
         android:id="@+id/travel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/travel" />
@@ -21,11 +21,11 @@
         android:id="@+id/password"
         android:layout_width="324dp"
         android:layout_height="47dp"
-        android:layout_marginTop="512dp"
+        android:layout_marginTop="416dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,23 +41,11 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/Kaydol"
-        android:layout_width="138dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="204dp"
-        android:text="Kaydol"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/adsoyad"
         android:layout_width="324dp"
         android:layout_height="52dp"
-        android:layout_marginTop="372dp"
+        android:layout_marginTop="276dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Adı Soyadı"
@@ -70,11 +58,11 @@
         android:id="@+id/telefon"
         android:layout_width="323dp"
         android:layout_height="46dp"
-        android:layout_marginTop="468dp"
+        android:layout_marginTop="372dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -82,7 +70,7 @@
         android:id="@+id/emailText"
         android:layout_width="322dp"
         android:layout_height="47dp"
-        android:layout_marginTop="424dp"
+        android:layout_marginTop="328dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="Email"

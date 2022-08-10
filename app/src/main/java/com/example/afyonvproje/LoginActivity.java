@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity  {
         passwordText = (TextView) findViewById(R.id.password);
         kaydol = (Button) findViewById(R.id.kaydol);
         yada = (TextView) findViewById(R.id.yada);
-        giris = (Button) findViewById(R.id.kaydol);
+        giris = (Button) findViewById(R.id.Giris);
 
 
 
